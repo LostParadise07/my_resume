@@ -1,0 +1,193 @@
+        body {
+            margin: 0%;
+            overflow-x: hidden;
+        }
+        
+        #body-header {
+            height: 20rem;
+            opacity: 0.8;
+            background-image: url(images/system3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .Horizontal-list {
+            list-style: none;
+            padding-left: 0rem;
+            margin: 0rem;
+        }
+        
+        .Horizontal-list li {
+            display: inline-block;
+            margin: 0.5rem 2rem 2rem 0.5rem;
+        }
+        
+        .Horizontal-list li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .Horizontal-list li a:hover {
+            color: grey;
+            transform: translate(0.1rem);
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        #my-name {
+            font-size: 2.5rem;
+            letter-spacing: 0.3rem;
+            color: white;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        
+        .Horizontal-list li a ion-icon {
+            font-size: 1.9rem;
+            border-radius: 2.5rem;
+        }
+        
+        .Horizontal-list li a ion-icon:hover {
+            color: none;
+            animation: pulsate 1s;
+        }
+        
+        @keyframes pulsate {
+            0% {
+                box-shadow: 0 0 0.5rem 0.5rem #5ddcff, 0 0 1rem 1rem #4e00c2;
+            }
+        }
+        
+        #About {
+            height: auto;
+            width: 100%;
+            position: relative;
+        }
+        
+        #my-image {
+            height: 10rem;
+            width: 10rem;
+            margin: auto;
+            margin-top: -5rem;
+        }
+        
+        #my-image img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+        
+        #About p {
+            margin-left: 2.2rem;
+            font-size: 1.5rem;
+            font-family: 'Josefin Sans', sans-serif;
+            color: rgb(25, 25, 26);
+        }
+        
+        #my-namee {
+            color: #262673;
+            font-weight: 200;
+            font-size: 1.8rem;
+        }
+        
+        #Skills {
+            margin: 0rem 2rem 2rem 0rem;
+            width: 100%;
+            padding: 1rem;
+            background-color: rgb(102, 128, 139);
+        }
+        
+        #Skills img {
+            height: 2rem;
+            width: 2rem;
+        }
+        
+        #Skills h1 {
+            display: inline-block;
+            font-size: 3rem;
+            font-family: fantasy;
+            color: white;
+        }
+        
+        #container {
+            margin: 1px;
+        }
+        
+        #container button {
+            margin: 0.3rem 2.5rem;
+            margin-bottom: 2rem;
+            width: 7rem;
+            height: 1.7rem;
+            padding: 0.1rem;
+            border: 0.8px solid black;
+            border-radius: 25px;
+        }
+        
+        .butt1 {
+            background: linear-gradient(to right, #7a2802 33%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+        }
+        
+        .butt1:hover {
+            background-position: left bottom;
+        }
+        
+        .butt2 {
+            background: linear-gradient(to right, #7a2802 35%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+        }
+        
+        .butt2:hover {
+            background-position: left bottom;
+        }
+        
+        .butt3 {
+            background: linear-gradient(to right, #df3d37 27%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+        }
+        
+        .butt3:hover {
+            background-position: left bottom;
+        }
+        
+        .butt4 {
+            background: linear-gradient(to right, #df3d37 30%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+        }
+        
+        .butt4:hover {
+            background-position: left bottom;
+        }
+        
+        .butt5 {
+            background: linear-gradient(to right, #df3d37 38%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+        }
+        
+        .butt5:hover {
+            background-position: left bottom;
+        }
+        
+        .butt6 {
+            background: linear-gradient(to right, #df3d37 28%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+        }
+        
+        .butt6:hover {
+            background-position: left bottom;
+        }
